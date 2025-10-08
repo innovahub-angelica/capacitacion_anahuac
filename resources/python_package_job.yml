@@ -11,11 +11,3 @@ resources:
           libraries:
             - whl: ../dist/*.whl
 
-      job_clusters:
-        - job_cluster_key: job_cluster
-          new_cluster:
-            spark_version: 15.4.x-scala2.12
-            node_type_id: Standard_D3_v2
-            autoscale:
-                min_workers: 1
-                max_workers: 2
