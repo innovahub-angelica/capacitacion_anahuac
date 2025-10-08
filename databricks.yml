@@ -14,11 +14,11 @@ targets:
     mode: development
     default: true
     workspace:
-      host: https://adb-2836125740739785.5.azuredatabricks.net
+      host: https://adb-2835612414672384.4.azuredatabricks.net
   prod:
     mode: production
     workspace:
-      host: https://adb-2836125740739785.5.azuredatabricks.net
+      host: https://adb-2835612414672384.4.azuredatabricks.net
       root_path: /Users/${workspace.current_user.userName}/.bundle/${bundle.name}/${bundle.target}
     run_as:
-      service_principal_name: 6905bbb3-f6ee-4923-a7be-6cdcb0c254b2
+      service_principal_name: 1ab7fdde-f93a-4e2a-9e77-57c95fe2d3ed
