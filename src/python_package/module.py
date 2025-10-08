@@ -1,2 +1,2 @@
 def hello():
-    return "Hello Anahuac actions: asset bundle databricks ci cd github2"
+    return "Hello Anahuac action: asset bundle databricks ci cd github2"
