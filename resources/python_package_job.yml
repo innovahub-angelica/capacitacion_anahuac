@@ -5,10 +5,8 @@ resources:
       tasks:
         - task_key: notebook_task
           existing_cluster_id: 0731-225257-bazc1p17
-          job_cluster_key: job_cluster
           notebook_task:
             notebook_path: ../src/notebook.ipynb
-          job_cluster_key: job_cluster
           libraries:
             - whl: ../dist/*.whl
 
